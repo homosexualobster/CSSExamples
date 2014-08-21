@@ -1,0 +1,163 @@
+<!DOCTYPE=html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New Tab</title>
+<style>
+body
+{
+    font-family: "Segoe UI";
+    font-size: 20;
+    color: #CCC;
+    background-color: #222;
+	text-shadow: 0px 0px 12px #000;
+}
+h1
+{
+    text-align: center;
+    font-size: 30;
+    margin: 16px;
+    color: #c5c8c6;
+}
+
+font.red
+{
+	text-align: center;
+    font-size: 36;
+    margin: 2px;
+    color: #BB2211;
+}
+font.dark 
+{
+    color: #BB3322;
+}
+form 
+{ 
+    margin: auto;
+    width: 400px;
+	box-shadow: 0px 0px 5px #000;
+}
+input, input.submit
+{
+    margin: inherit;
+    font-size: inherit;
+    display: block;
+    float: left;
+    height: auto;
+    background: #222;
+    border-style: solid;
+    border-color: #333;
+    color: #bcbcbc;
+	box-shadow: 0px 0px 5px #000;
+}
+input:active
+{
+	border-color: #111;
+	height: 10px;
+}
+input.submit
+{
+	box-shadow: 1px 0px 5px #000;
+}
+table
+{
+    width: 800px;
+    font-size: inherit;
+    table-layout: fixed;
+    margin: auto auto;
+}
+td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+}
+a
+{
+    text-decoration: none;
+    margin: 1px;
+}
+a:link,a:visited, a#sublink:link, a#sublink:visited
+{
+    color: #CCC;
+}
+a:hover, a:active, a#sublink:hover, a#sublink:active
+{
+    color: #EEE;
+}
+a#selector
+{
+	color: #BB3322;
+}
+a#sublink
+{
+    color: #CCC;
+}
+</style>
+</head>
+   <body>
+        <br><br>
+        <form method="get" action="https://www.google.com/search">
+			<!--<div style="padding:6px;box-shadow: 0px 0px 2px #000;background-color:#222222;"> -->
+            <input type="hidden" name="cref" value="">
+            <input type="hidden" name="ie" value="utf-8">
+            <input type="hidden" name="hl" value="">
+            <input name="q" type="text" style="width:80%">
+            <input name="sa" type="submit" value="Search" style="width:20%"/ class="submit">
+        </form>
+        
+        <br><br>
+        
+        <h1><font class="red">リンクス</font></h1>
+        
+        <br>
+        
+        <table>
+            <tr style="text-align: center;">
+                <td><font class="dark"><a>entertainment</a></font></td>
+                <td><font class="dark"><a>information</a></font></td>
+                <td><font class="dark"><a>productivity, creative</a></font></td>
+            </tr>
+            <tr>
+                <td><a href="https://dan-ball.jp/en/">dan-ball</a></td>
+                <td><a href="http://en.wikipedia.org">wikipedia</a></td>
+                <td><a href="http://google.com">google</a> <a id="selector" href="#"> &raquo; <a id="sublink" href="http://mail.google.com">gmail</a> </a> </td>
+            </tr>
+            <tr>
+                <td><a href="http://reddit.com">reddit</a> <a id="selector" href="#"> &raquo; <a id="sublink" href="https://reddit.com/r/all">all</a> <a id="sublink" href="https://reddit.com/r/luciddreaming">ld</a> <a id="sublink" href="https://reddit.com/r/gameboy">gb</a> </a> </td>
+                <td><a href="http://www.theblaze.com/">theblaze</a></td>
+                <td><a href="http://github.com">github</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://youtube.com/">youtube</a></td>
+                <td><a href="http://amazon.com">amazon</a></td>
+                <td><a href="http://colorschemedesigner.com/csd-3.5/">colours</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://4chan.org">4chan</a> <a id="selector" href="#"> &raquo; <a id="sublink" href="https://boards.4chan.org/vr/catalog">/vr/</a> <a id="sublink" href="https://boards.4chan.org/g/catalog">/g/</a> <a id="sublink" href="https://boards.4chan.org/b/catalog">/b/</a> </a> </td>
+                <td><a href="http://store.kitsch-bent.com/">kitsch-bent</a></td>
+                <td><a href="http://pastebin.com">pastebin</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://kickass.to/">kickass.to</a></td>
+                <td><a href="http://www.ebay.com/">ebay</a></td>
+                <td><a href="http://www.w3schools.com/">w3schools</a></td>
+            </tr>
+            <tr>
+				<td><a href="http://www.omegle.com/">omegle</a></td>
+				<td><a href="http://eff.org">eff</a></td>
+				<td></td>
+            </tr>
+            <tr>
+            <td><a href="http://yts.re/browse-movie">yify</a></td>
+            <td></td>
+            <td></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr> 
+        </table>
+    </body>
+</html>
